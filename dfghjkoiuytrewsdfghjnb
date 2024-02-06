@@ -1,0 +1,62 @@
+[1mdiff --git a/README.md b/README.md[m
+[1mindex 2862250..06db211 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -21,16 +21,12 @@[m [mgo on branch[m
+ git checkout branchName(ex..Main , feature1,...)[m
+ [m
+ [m
+[31m-How to Maerge Main and Feature1 file[m
+[31m- C:\Users\Home\GitFolderExamples\RAJ> git branch[m
+[31m-* feature1[m
+[31m-  main[m
+[31m-PS C:\Users\Home\GitFolderExamples\RAJ> git diff main[m
+[31m-[m
+[31m-Two ways to merge-[m
+[31m-1>git merge main[m
+[31m-[m
+[31m-[m
+[31m-2>Throw git[m
+[31m-create PR(pull request)[m
+ [m
+[32m+[m[32mmerge[m
+[32m+[m[32mPS C:\Users\Home\GitFolderExamples\raj> git checkout main[m
+[32m+[m[32mSwitched to branch 'main'[m
+[32m+[m[32mYour branch is up to date with 'origin/main'.[m
+[32m+[m[32mPS C:\Users\Home\GitFolderExamples\raj> git branch[m[41m       [m
+[32m+[m[32m  feature1[m
+[32m+[m[32m* main[m
+[32m+[m[32mPS C:\Users\Home\GitFolderExamples\raj> git pull origin main[m
+\ No newline at end of file[m
+[1mdiff --git a/d b/d[m
+[1mdeleted file mode 100644[m
+[1mindex dbb32a3..0000000[m
+[1m--- a/d[m
+[1m+++ /dev/null[m
+[36m@@ -1,26 +0,0 @@[m
+[31m-[1mdiff --git a/README.md b/README.md[m[m
+[31m-[1mindex 8ad0608..3d91984 100644[m[m
+[31m-[1m--- a/README.md[m[m
+[31m-[1m+++ b/README.md[m[m
+[31m-[36m@@ -3,4 +3,19 @@[m [mfirst step <br>[m[m
+[31m- git status<br>[m[m
+[31m- git add .<br>[m[m
+[31m- git commit -m  "Message you wnt"<br>[m[m
+[31m-[31m-git push origin main//origin main (not needed)<br>[m[m
+[31m-\ No newline at end of file[m[m
+[31m-[32m+[m[32mgit push origin main//origin main (not needed)<br>[m[m
+[31m-[32m+[m[m
+[31m-[32m+[m[32m====================================================================[m[m
+[31m-[32m+[m[m
+[31m-[32m+[m[m
+[31m-[32m+[m[32mBranch[m[41m [m[m
+[31m-[32m+[m[32mCreate new branch-[m[m
+[31m-[32m+[m[32mgit checkout -b branch[m[m
+[31m-[32m+[m[m
+[31m-[32m+[m[m
+[31m-[32m+[m[32mcheck how many brach[m[m
+[31m-[32m+[m[32mgit branch[m[m
+[31m-[32m+[m[m
+[31m-[32m+[m[m
+[31m-[32m+[m[32mgo on branch[m[m
+[31m-[32m+[m[32mgit checkout branchName(ex..Main , feature1,...)[m[m
